@@ -1,0 +1,19 @@
+@mixin super-square {
+    width: 200px;
+    height: 200px;
+    background: black;
+    color: white;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+@mixin change-square($rad, $wid, $hgh, $bg){
+    border-radius: $rad;
+    width: $wid;
+    height: $hgh;
+    background: $bg;
+}
